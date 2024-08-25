@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root{
+    --azul-claro: #F3F5FC;
+    --cinza-escuro:#343A40;
+    --azul-escuro: #0A3871;
+    --branco: #ffffff;
+}
+
+*{
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: var(--azul-claro);
+    overflow: hidden;
+}
+
+header{
+    display: flex;
+    width: 60%;
+    height: 60px;
+    background-color: var(--azul-claro);
+}
+
+.logo_alura{
+    margin-top: 12px;
+    margin-left: 15px;
+    width: 120px;
+    height: 48px;
+}
+
+main{
+    display: flex;
+    width: 100vw;
+    height: 90vh;
+    background-color: var(--azul-claro);
+}
+
+.conteudo_entrada{
+    width: 60%;
+    background-color: var(--azul-claro);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.conteudo_entrada_texto{
+    width: 60%;
+    height: 18rem;
+    background-color: var(--azul-claro);
+    margin-top: 10%;
+    margin-left: 25%;
+}
+
+textarea {
+    height: 100%;
+    border: none;  
+    outline: none;
+    resize: none;
+    font-family: "Inter", sans-serif; 
+    font-size: 25px;
+    color: var(--azul-escuro);
+    
+}
+
+textarea::placeholder {
+    color: var(--azul-escuro);
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+}
+
+.info_formataçao{
+    display: flex;
+    align-items: center;
+    gap: 0.5%;
+    margin-top: 4.2rem;
+    font-size: 12px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    margin-left: 25%;
+}
+
+#btn_info {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px; 
+}
+
+.botoes{
+    display: flex;
+    flex-direction: row;
+    margin-left: 25%;
+    margin-top: auto;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--branco);
+    gap: 24px;
+    text-align: center;
+}
+
+.botao_criptografar:hover, .btn_copiar:hover{
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+  }
+.botao_descriptografar:hover{
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.botao_criptografar, .botao_descriptografar, .btn_copiar {
+    height: auto; 
+    padding: 12px 24px; 
+}
+
+.botao_criptografar{
+    width: 280px;
+    border-radius: 24px;
+    background: var(--azul-escuro);
+    border: none;
+    margin: 0;
+    outline: none;
+    box-shadow: none;
+    text-decoration: none;
+    color: inherit;
+    font: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.botao_descriptografar{
+    width: 280px;
+    border-radius: 24px;
+    background: var(--azul-claro);
+    border: 5%;
+    border-style: solid;
+    border-color: var(--azul-escuro);
+    margin: 0;
+    outline: none;
+    box-shadow: none;
+    text-decoration: none;
+    color: var(--azul-escuro);
+    font: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+
+.conteudo_saida{
+    display: flex;
+    width: 40%;
+    height: 100%;
+    background-color: var(--azul-claro);
+    flex-direction: column;
+    align-items: center;
+}
+
+.retangulo {
+    width: 60%;
+    height: 95%;
+    background-color: var(--branco);
+    border-radius: 32px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    align-items: center;
+}
+
+.img_menina_com_lupa{
+    width: 80%;
+    height: 50%;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.conteudo_saida_textos{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-top: 10%;
+    justify-content: center;
+    gap: 10px;
+}
+
+.conteudo_saida_texto_p{
+    color: var(--cinza-escuro);
+}
+
+.conteudo_resultado{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.conteudo_resultado_texto{
+    width: 300px;
+    height: 400px;
+    gap: 0px;
+    opacity: 0px;
+   font-family: "Inter", sans-serif;
+   font-size: 2,5 rem;
+   font-weight: 400;
+   color: var(--azul-escuro);
+   overflow-y: auto;
+   word-wrap: break-word;
+}
+
+.texto_resultado{
+    font-family: "Inter", sans-serif;
+    font-size: 2,5 rem;
+    font-weight: 400;
+    color: var(--azul-escuro);
+    
+}
+
+.btn_copiar{
+    font-family: "Inter", sans-serif;
+    font-size: 2,5 rem;
+    font-weight: 400;
+    width: 17.5rem;
+    border-radius: 24px;
+    background: white;
+    border: 5%;
+    border-style: solid;
+    border-color: var(--azul-escuro);
+    margin: 0;
+    outline: none;
+    box-shadow: none;
+    text-decoration: none;
+    color: var(--azul-escuro);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+
+.ocultar{
+    display: none;
+}

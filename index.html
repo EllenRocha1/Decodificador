@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de Texto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img class="logo_alura" src="img/logo_alura.png" alt="logo Alura">
+    </header>
+
+    <main>
+        <section class="conteudo_entrada">
+            <textarea class="conteudo_entrada_texto" name="texto_usuario" id="texto_usuario" placeholder="Digite seu texto"></textarea>
+          <div id="btn_info">
+            <div class="info_formataçao">
+                <img src="img/exclamaçao_circulo.png" class="info_formataçao_img" alt="Informação">
+                <p id="info_texto">Apenas letras minúsculas e sem acento</p>
+            </div>
+
+            <div class="botoes">
+                <input type="button" class="botao_criptografar" id="btn_criptografar" value="Criptografar">
+                <input type="button" class="botao_descriptografar" id="btn_descriptografar" value="Descriptografar">
+            </div>
+        </div>
+        </section>
+
+        <section class="conteudo_saida">
+          <div class="retangulo">
+                    <img src="img/menina_com_lupa.png" class="img_menina_com_lupa" alt="Menina com lupa"> 
+                 <div class="conteudo_saida_textos">
+                      <h2 class="conteudo_saida_texto_h2">Nenhuma mensagem encontrada</h2>
+                      <p class="conteudo_saida_texto_p">Digite um texto que você deseja criptografar ou descriptografar.</p>
+                 </div>
+
+                 <div class="conteudo_resultado">
+                         <div class="conteudo_resultado_texto">
+                               <p class="texto_resultado"></p>
+                          </div>
+                     <input type ="button" class="btn_copiar" id="copy" value="Copiar">
+                 </div>
+         </div>
+          
+        </section>
+    </main>
+    
+    <footer>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
