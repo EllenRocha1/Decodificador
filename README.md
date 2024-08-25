@@ -41,11 +41,11 @@ Este é um simples decodificador de texto que criptografa e descriptografa mensa
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/EllenRocha1/Decodificador.git
+   git clone https://github.com/EllenRocha1/Decodificador_de_texto.git
 
 2. Navegue até o diretório do projeto:
    ```bash
-   cd Decodificador
+   cd Decodificador_de_texto
 
 3. Abra o arquivo index.html no seu navegador de preferência.
 
