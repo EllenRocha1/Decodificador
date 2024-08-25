@@ -18,7 +18,7 @@ Este é um simples decodificador de texto que criptografa e descriptografa mensa
 
 - **Copiar Texto:** Permite copiar o resultado para a área de transferência com um único clique.
   
-![Texto Copiado](assets_readme\texto_copiado.png)
+![Texto Copiado](assets_readme/texto_copiado.png)
 
 - **Limpeza Automática:** O conteúdo da área de texto é automaticamente limpo após a criptografia ou descriptografia.
 
