@@ -2,25 +2,21 @@
 
 Este é um simples decodificador de texto que criptografa e descriptografa mensagens utilizando uma substituição de caracteres personalizada. O projeto foi desenvolvido como uma prática de JavaScript, HTML e CSS.
 
-### Tela Inicial
-
 ![Tela Inicial](assets_readme/tela_inicial.png)
 
 ## Funcionalidades
 
 - **Criptografia de Texto:** Transforma seu texto em uma mensagem criptografada utilizando as regras definidas.
-  
-  ![Texto Criptografado](assets_readme/texto_criptografado.png)
-
 - **Descriptografia de Texto:** Converte uma mensagem criptografada de volta ao texto original.
-  
-![Texto Descriptografado](assets_readme/texto_descriptografado.png)
-
 - **Copiar Texto:** Permite copiar o resultado para a área de transferência com um único clique.
-  
-![Texto Copiado](assets_readme/texto_copiado.png)
-
 - **Limpeza Automática:** O conteúdo da área de texto é automaticamente limpo após a criptografia ou descriptografia.
+
+## Imagens:
+
+  ![Texto Criptografado](assets_readme/texto_criptografado.png)
+  ![Texto Descriptografado](assets_readme/texto_descriptografado.png)
+  ![Texto Copiado](assets_readme/texto_copiado.png)
+  
 
 ## Tecnologias Utilizadas
 
