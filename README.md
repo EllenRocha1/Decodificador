@@ -57,4 +57,4 @@ Este é um simples decodificador de texto que criptografa e descriptografa mensa
 
 Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
-## Devolvido por Ellen Rocha
+## Developed by Ellen Rocha
